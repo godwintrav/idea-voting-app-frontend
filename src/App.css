@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: #8ee4af;
+  min-height: 150vh;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.nav {
+  width: 100%;
+  padding: 30px;
+  background-color: #5cdb95;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #05386b;
+}
+
+h1 {
+  color: #05386b;
+}
+
+.boardList {
+  border: 2px solid black;
+  margin-bottom: 40px;
+}
+.board {
+  padding: 10px;
+}
+
+.board:nth-child(odd) {
+  background: #edf5e1;
+}
+.board:nth-child(even) {
+}
+
+#ideaList {
+  border: 2px solid black;
+}
+.idea:nth-child(odd) {
+  background: #edf5e1;
+}
+.idea:nth-child(even) {
+}
+.idea {
+  padding: 10px;
+}
+
+.showCreateIdea {
+  margin: 20px;
+}
